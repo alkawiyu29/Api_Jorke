@@ -1,0 +1,887 @@
+{
+	"id": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+	"name": "project login",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "auth",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"order": [
+				"c6ba2e84-25dc-d3ee-bfa6-220bf719f098",
+				"1266d4c7-22f0-5fd3-ef6b-b646eb939e63",
+				"7bd4e269-6864-e3d3-a785-e687503e4f42",
+				"1a7b82dd-bf85-ce93-ea4e-104d30ed6b4f"
+			],
+			"owner": "7559972",
+			"folders_order": [],
+			"id": "112ef722-a02a-a37b-1edc-9309962cb8b7"
+		},
+		{
+			"name": "books",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"order": [
+				"af97017f-494d-d1bf-9fa4-718dd47f026d",
+				"bdae6ab7-d976-8bca-61bf-6674f94f71cc",
+				"34030f3b-f1fe-9f4b-fbda-07d3ea7d1f51",
+				"09b7bd64-a758-66b4-76ae-219affaaaf15"
+			],
+			"owner": "7559972",
+			"folders_order": [],
+			"id": "c50f0e41-ec92-533d-34cc-3f7cb41fbb6d"
+		},
+		{
+			"name": "categories",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"order": [
+				"be59afbb-cf3e-5d85-c66c-7c2f2ea2476f",
+				"2f5ffa0e-4657-7599-53c2-0c762451dcee",
+				"2899fde7-bb3f-1554-ce63-04b17892605c",
+				"bb0d7bfe-2ddc-752e-837e-2b0f5c9fceae"
+			],
+			"owner": "7559972",
+			"folders_order": [],
+			"id": "a07c5aee-dded-c4ff-11f1-ebbc3479f97f"
+		},
+		{
+			"name": "racks",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"order": [
+				"f431a0ad-3a24-a087-b746-10fb5497b291",
+				"faeae19b-a84e-63b1-176e-b9e08ee37f67",
+				"5392ec73-7c59-a2d2-10ff-3269520e3a3b",
+				"c077437b-7ec9-7701-df07-5cf6d401ca59"
+			],
+			"owner": "7559972",
+			"folders_order": [],
+			"id": "3f0eb380-0e5b-230d-0f0c-b0f1082240f3"
+		}
+	],
+	"folders_order": [
+		"112ef722-a02a-a37b-1edc-9309962cb8b7",
+		"c50f0e41-ec92-533d-34cc-3f7cb41fbb6d",
+		"3f0eb380-0e5b-230d-0f0c-b0f1082240f3",
+		"a07c5aee-dded-c4ff-11f1-ebbc3479f97f"
+	],
+	"timestamp": 1601475056437,
+	"owner": "7559972",
+	"public": false,
+	"requests": [
+		{
+			"id": "09b7bd64-a758-66b4-76ae-219affaaaf15",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/book/1",
+			"folder": "c50f0e41-ec92-533d-34cc-3f7cb41fbb6d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552599924,
+			"name": "localhost:8000/api/book/",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\" : \"Deteksi Gas\",\n\t\"author\" : \"Jorke\"\n}"
+		},
+		{
+			"id": "1266d4c7-22f0-5fd3-ef6b-b646eb939e63",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"data": [
+				{
+					"key": "name",
+					"value": "User Pertama",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "alkawiyu@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456789",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password_confirmation",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost:8000/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601475069391,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "1266d4c7-22f0-5fd3-ef6b-b646eb939e63",
+			"folder": "112ef722-a02a-a37b-1edc-9309962cb8b7"
+		},
+		{
+			"id": "1a7b82dd-bf85-ce93-ea4e-104d30ed6b4f",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/password/reset",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"data": [
+				{
+					"key": "email",
+					"value": "alkawiyu@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "X29781Q0rYkG",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456789",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password_confirmation",
+					"value": "123456789",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost:8000/api/password/reset",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601475088948,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "1a7b82dd-bf85-ce93-ea4e-104d30ed6b4f",
+			"folder": "112ef722-a02a-a37b-1edc-9309962cb8b7"
+		},
+		{
+			"id": "2899fde7-bb3f-1554-ce63-04b17892605c",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8000/api/categories",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8000/api/categories",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601553271550,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "a07c5aee-dded-c4ff-11f1-ebbc3479f97f"
+		},
+		{
+			"id": "2f5ffa0e-4657-7599-53c2-0c762451dcee",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"url": "localhost:8000/api/categorie/4",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"name": "localhost:8000/api/categorie/",
+			"description": "",
+			"sandboxFiles": "",
+			"sendMethod": "xhr",
+			"time": 1601553201740,
+			"responses": [],
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"folder": "a07c5aee-dded-c4ff-11f1-ebbc3479f97f",
+			"rawModeData": "{\n\t\"name\" : \"Informatika\"\n}"
+		},
+		{
+			"id": "34030f3b-f1fe-9f4b-fbda-07d3ea7d1f51",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/book/1",
+			"folder": "c50f0e41-ec92-533d-34cc-3f7cb41fbb6d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552593231,
+			"name": "localhost:8000/api/book/",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Hmm\"\n}"
+		},
+		{
+			"id": "5392ec73-7c59-a2d2-10ff-3269520e3a3b",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/rack/1",
+			"folder": "3f0eb380-0e5b-230d-0f0c-b0f1082240f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552694562,
+			"name": "localhost:8000/api/rack/",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Hmm\"\n}"
+		},
+		{
+			"id": "7bd4e269-6864-e3d3-a785-e687503e4f42",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/password/email",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"data": [
+				{
+					"key": "email",
+					"value": "alkawiyu@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password_confirmation",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost:8000/api/password/email",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601475081834,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "7bd4e269-6864-e3d3-a785-e687503e4f42",
+			"folder": "112ef722-a02a-a37b-1edc-9309962cb8b7"
+		},
+		{
+			"id": "af97017f-494d-d1bf-9fa4-718dd47f026d",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/books",
+			"folder": "c50f0e41-ec92-533d-34cc-3f7cb41fbb6d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "isbn",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "apaas",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "sjald",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "total_page",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rack_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "categories",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552573952,
+			"name": "localhost:8000/api/books",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "af97017f-494d-d1bf-9fa4-718dd47f026d"
+		},
+		{
+			"id": "bb0d7bfe-2ddc-752e-837e-2b0f5c9fceae",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8000/api/categorie/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8000/api/categorie/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601553318211,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "a07c5aee-dded-c4ff-11f1-ebbc3479f97f"
+		},
+		{
+			"id": "bdae6ab7-d976-8bca-61bf-6674f94f71cc",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/book",
+			"folder": "c50f0e41-ec92-533d-34cc-3f7cb41fbb6d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "isbn",
+					"value": "23",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "title",
+					"value": "Deteksi Tomat",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "author",
+					"value": "Bedoy",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "total_page",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "rack_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "categories",
+					"value": "[1,2,3,4]",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "name",
+					"value": "Belakang",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552584635,
+			"name": "localhost:8000/api/book",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "bdae6ab7-d976-8bca-61bf-6674f94f71cc"
+		},
+		{
+			"id": "be59afbb-cf3e-5d85-c66c-7c2f2ea2476f",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/categorie",
+			"folder": "a07c5aee-dded-c4ff-11f1-ebbc3479f97f",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Gajelas",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601553172105,
+			"name": "localhost:8000/api/categories",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "be59afbb-cf3e-5d85-c66c-7c2f2ea2476f"
+		},
+		{
+			"id": "c077437b-7ec9-7701-df07-5cf6d401ca59",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/rack/5",
+			"folder": "3f0eb380-0e5b-230d-0f0c-b0f1082240f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552726206,
+			"name": "localhost:8000/api/rack/",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\" : \"Deteksi Gas\",\n\t\"author\" : \"Jorke\"\n}"
+		},
+		{
+			"id": "c6ba2e84-25dc-d3ee-bfa6-220bf719f098",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"data": [
+				{
+					"key": "name",
+					"value": "Jorke Alkawiyu",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "alkawiyu@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password_confirmation",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "localhost:8000/api/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601475058381,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "c6ba2e84-25dc-d3ee-bfa6-220bf719f098",
+			"folder": "112ef722-a02a-a37b-1edc-9309962cb8b7"
+		},
+		{
+			"id": "f431a0ad-3a24-a087-b746-10fb5497b291",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/racks",
+			"folder": "3f0eb380-0e5b-230d-0f0c-b0f1082240f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "isbn",
+					"value": "11",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "apaas",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "sjald",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "total_page",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rack_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "categories",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552662183,
+			"name": "localhost:8000/api/racks",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "f431a0ad-3a24-a087-b746-10fb5497b291"
+		},
+		{
+			"id": "faeae19b-a84e-63b1-176e-b9e08ee37f67",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8000/api/rack",
+			"folder": "3f0eb380-0e5b-230d-0f0c-b0f1082240f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "isbn",
+					"value": "23",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "title",
+					"value": "Deteksi Tomat",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "author",
+					"value": "Bedoy",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "total_page",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "rack_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "categories",
+					"value": "[1,2,3,4]",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "name",
+					"value": "Belakang",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601552660565,
+			"name": "localhost:8000/api/rack",
+			"description": "",
+			"collectionId": "27f016f3-5b0a-e545-b9cf-a32e3bd14f45",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "faeae19b-a84e-63b1-176e-b9e08ee37f67"
+		}
+	]
+}
